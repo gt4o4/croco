@@ -8,5 +8,5 @@ version = "0.1.0"
 description = "CroCo models"
 dependencies = []
 
-[tool.setuptools]
-packages = ["croco", "utils", "stereoflow", "datasets"]
+[tool.setuptools.packages.find]
+include = ["croco", "croco.*", "croco_utils", "croco_utils.*", "stereoflow", "stereoflow.*", "croco_datasets", "croco_datasets.*"]

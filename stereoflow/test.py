@@ -15,7 +15,7 @@ from tqdm import tqdm
 import torch
 from torch.utils.data import DataLoader
 
-import utils.misc as misc
+import croco_utils.misc as misc
 from croco.croco_downstream import CroCoDownstreamBinocular
 from croco.head_downstream import PixelwiseTaskWithDPT
 

@@ -21,9 +21,9 @@ import torchvision.transforms as transforms
 import torchvision.datasets as datasets
 from torch.utils.data import DataLoader
 
-import utils
-import utils.misc as misc
-from utils.misc import NativeScalerWithGradNormCount as NativeScaler
+import croco_utils
+import croco_utils.misc as misc
+from croco_utils.misc import NativeScalerWithGradNormCount as NativeScaler
 from croco.croco_downstream import CroCoDownstreamBinocular, croco_args_from_ckpt
 from croco.pos_embed import interpolate_pos_embed
 from croco.head_downstream import PixelwiseTaskWithDPT
