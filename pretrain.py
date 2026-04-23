@@ -27,11 +27,11 @@ from torch.utils.tensorboard import SummaryWriter
 import torchvision.transforms as transforms
 import torchvision.datasets as datasets
 
-import utils.misc as misc
-from utils.misc import NativeScalerWithGradNormCount as NativeScaler
+import croco_utils.misc as misc
+from croco_utils.misc import NativeScalerWithGradNormCount as NativeScaler
 from croco.croco import CroCoNet
 from croco.criterion import MaskedMSE
-from datasets.pairs_dataset import PairsDataset
+from croco_datasets.pairs_dataset import PairsDataset
 
 
 def get_args_parser():
