@@ -29,8 +29,8 @@ import torchvision.datasets as datasets
 
 import utils.misc as misc
 from utils.misc import NativeScalerWithGradNormCount as NativeScaler
-from models.croco import CroCoNet
-from models.criterion import MaskedMSE
+from croco.croco import CroCoNet
+from croco.criterion import MaskedMSE
 from datasets.pairs_dataset import PairsDataset
 
 
